@@ -4,3 +4,10 @@ I ran strings on the static file and found the flag in there but the directions 
 strings static | grep pico
 
 
+download both files. 
+chmod +x ltdis.sh
+./ltdis.sh static
+
+It generates two new files
+cat newfile (static.ltdis.static.txt)
+flag is on line starting with 1020
