@@ -1,1 +1,14 @@
 Figure out how to run the warm binary
+
+
+
+#you could run 
+chmod +x warm
+./warm -h
+#or 
+./warm -help
+
+
+#I ran
+strings warm
+
