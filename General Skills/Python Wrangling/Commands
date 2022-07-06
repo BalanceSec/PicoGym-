@@ -1,0 +1,15 @@
+Download Files
+
+Commands
+____________________________
+
+chmod +x ende.py
+#Show help to get arguements
+python3 ende.py -h
+cat pw.txt
+#copy the password
+python3 ende.py -d flag.txt.en
+#It prompts for password, paste it in
+#It prints out the flag. 
+
+
