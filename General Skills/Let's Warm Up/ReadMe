@@ -1,1 +1,5 @@
 If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
+
+
+Just decode the hex, I used cyberchef.org
+Then put the answer in the flag format (picoCTF{answer})
