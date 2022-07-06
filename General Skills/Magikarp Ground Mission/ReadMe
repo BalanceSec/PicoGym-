@@ -1,0 +1,13 @@
+Description
+Do you know how to move between directories and read files in the shell? Start the container, `ssh` to it, and then `ls` once connected to begin. 
+Login via `ssh` as `ctf-player` with the password, `6dee9772`
+
+ssh ctf-player@venus.picoctf.net -p 52114
+
+ls 
+
+cat the files first file for the first part of the flag and then cat the next file for the location of the next part of the flag
+Repeat until the whole flag is obtained, 
+
+part 2 is found in /
+part 3 is found in ~
