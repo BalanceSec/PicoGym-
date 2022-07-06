@@ -1,0 +1,9 @@
+Run the command
+
+nc mercury.picoctf.net 49039
+
+It gives a list of numbers, copy those numbers to a decoder like cyberchef.org
+
+Looking at the numbers I determined it was decimal (base 10)
+
+I used the From decimal filter and got the flag
