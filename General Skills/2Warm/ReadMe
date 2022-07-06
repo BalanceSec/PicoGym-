@@ -1,0 +1,4 @@
+Description
+Can you convert the number 42 (base 10) to binary (base 2)?
+
+I used cyberchef.org to convert to binary and added the picoCTF{} around the answer
