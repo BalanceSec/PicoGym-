@@ -1,0 +1,6 @@
+Download the files, 
+
+I ran strings on the static file and found the flag in there but the directions say to run the script with the static file. 
+strings static | grep pico
+
+
