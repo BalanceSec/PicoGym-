@@ -1,1 +1,7 @@
 Download the zip file
+
+Unzip the file
+use tab to auto complete as you cd into each new directory
+one you find the fang-of-haynekhtnamet file, use strings and grep for the flag
+
+strings fang-of-haynekhtnamet | grep pico
