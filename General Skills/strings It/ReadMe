@@ -1,0 +1,5 @@
+Description
+Can you find the flag in file without running it?
+
+Ran the command on the file named strings
+strings strings | grep pico
