@@ -1,0 +1,13 @@
+Description
+Fix the syntax error in the Python script to print the flag.
+Download Python script
+
+ReadMe from fixme1 to learn how to edit python
+
+Fix Line 22 
+if flag = "":
+it should be a double equals sign, ==
+if flag ==":
+
+file output
+That is correct! Here's your flag: picoCTF{x}
