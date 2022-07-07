@@ -2,3 +2,11 @@ Description
 Run the Python script and convert the given number from decimal to binary to get the flag.
 Download Python script
 
+after adding execute permissions and running the file it gives you a random number and asks to convert it to binary. If you provide the correct binary answer it will give you the flag. 
+
+chmod +x convertme.py
+python3 convertme.py
+
+If 90 is in decimal base, what is it in binary base?
+Answer: 1011010
+That is correct! Here's your flag: picoCTF{x}
