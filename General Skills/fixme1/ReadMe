@@ -2,3 +2,14 @@ Description
 Fix the syntax error in this Python script to print the flag.
 Download Python script
 
+Open the python file in a text editor or code editor (I used visual studio).
+Identify the issue, visual studio underlined the last print function and I was easily able to tell it was indented. 
+After fixing the issue I ran the file (in visual studio you can just right click and "Run Python File in Terminal"
+
+Alteritavely you can fix in any editor and run the following commands in terminal
+chmod +x fixme1.py
+python3 fixme1.py
+
+
+Output of file:
+That is correct! Here's your flag: picoCTF{x}
