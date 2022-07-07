@@ -1,0 +1,23 @@
+Description
+If you want to hash with the best, beat this test!
+nc saturn.picoctf.net 54555
+
+When you type in the nc command, it will prompt with this only a different phrase to hash. 
+I used cyberchef.org to hash the phrase. It then prompts two more times before it will give you the flag. 
+
+Please md5 hash the text between quotes, excluding the quotes: 'having a baby'
+Answer: 
+e215dac50d263755ea60abc80a0f3437
+e215dac50d263755ea60abc80a0f3437
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'money'
+Answer: 
+9726255eec083aa56dc0449a21b33190
+9726255eec083aa56dc0449a21b33190
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'a high school bathroom'
+Answer: 
+98219c442a477b6dc1756d2a6d49d8df
+98219c442a477b6dc1756d2a6d49d8df
+Correct.
+picoCTF{x}
