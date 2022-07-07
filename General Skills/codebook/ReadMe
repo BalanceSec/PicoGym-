@@ -2,4 +2,11 @@ Description
 Run the Python script code.py in the same directory as codebook.txt.
 
 
+Simply download both the files 
+Add execute permissions to the py file
+run the py in the same directory that the codebook.txt file is in. 
 
+
+
+chmod +x code.py
+python code.py
