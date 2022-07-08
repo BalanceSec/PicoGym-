@@ -4,4 +4,21 @@ Download the password checker here and you'll need the encrypted flag and the ha
 There are 7 potential passwords with 1 being correct. You can find these by examining the password checker script.
 
 
+If you view the python file it shows the 7 possible hashes, I wrote a for loop into the python script to check all 7 and it printed out the flag. The edited fucntion looks like:
 
+def level_3_pw_check():
+    #user_pw = input("Please enter correct password for flag: ")
+    for i in pos_pw_list:
+        user_pw_hash = hash_pw(i)
+   #user_pw_hash = hash_pw(user_pw)
+        if( user_pw_hash == correct_pw_hash ):
+            print("Welcome back... your flag, user:")
+            decryption = str_xor(flag_enc.decode(), i)
+            print(decryption)
+            return
+        print("That password is incorrect")
+        
+        
+        I uploaded this edited working script here as well. 
+        
+        
