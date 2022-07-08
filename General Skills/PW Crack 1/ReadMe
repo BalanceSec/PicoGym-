@@ -2,3 +2,14 @@ Description
 Can you crack the password to get the flag?
 Download the password checker here and you'll need the encrypted flag in the same directory too.
 
+chmod +x level1.py
+python3 level1.py
+        It prompts with a password.
+        Ctrl C
+cat level1.py
+        The last function has the password hardcoded '8713'
+        Rerun the previous command and input the password. (Make sure the encrypted file is in the same directory and has the default name)
+python3 level1.py 
+please enter correct password for flag: 8713
+Welcome back... your flag, user:
+picoCTF{x}
