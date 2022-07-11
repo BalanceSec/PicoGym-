@@ -3,3 +3,14 @@ Unzip this archive and find the file named 'uber-secret.txt'
 Download zip file
 
 
+unzip the file.  find the uber-secret.txt file. 
+
+unzip file.zip
+find . -type f -name "uber-secret.txt"
+
+
+
+
+My example: 
+find . -name "uber*"
+./adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
