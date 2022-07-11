@@ -2,3 +2,7 @@ Description
 Run the runme.py script to get the flag. Download the script with your browser or with wget in the webshell.
 Download runme.py Python script
 
+To run the file and get the flag do the following:
+
+chmod +x runme.py
+python runme.py
