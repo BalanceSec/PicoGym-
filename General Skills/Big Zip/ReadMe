@@ -2,3 +2,11 @@ Description
 Unzip this archive and find the flag.
 Download zip file
 
+
+The commands I ran were
+
+unzip big-zip-files.zip
+cd big-zip-files
+find . -type f -exec cat {} + | grep picoCTF{
+
+This created a huge output with the flag being at the very bottom. 
