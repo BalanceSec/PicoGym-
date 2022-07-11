@@ -1,2 +1,27 @@
 Description
 To get truly 1337, you must understand different data encodings, such as hexadecimal or binary. Can you get the flag from this program to prove you are on the way to becoming 1337? Connect with nc jupiter.challenges.picoctf.org 29956.
+
+This challenge will give you some characters to decrypt into Ascii and type in the results. You only have a limited amount of time for each prompt so you have to be fast
+
+I used cyberchef for all decoding. The following is the order I received:
+binary
+octal
+hex
+
+picoCTF % nc jupiter.challenges.picoctf.org 29956
+Let us see how data is stored
+colorado
+Please give the 01100011 01101111 01101100 01101111 01110010 01100001 01100100 01101111 as a word.
+...
+you have 45 seconds.....
+
+Input:
+colorado
+Please give me the  163 165 142 155 141 162 151 156 145 as a word.
+Input:
+submarine
+Please give me the 7461626c65 as a word.
+Input:
+table
+You've beaten the challenge
+Flag: picoCTF{}
