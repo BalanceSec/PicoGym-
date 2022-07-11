@@ -1,4 +1,10 @@
 Description
 Sometimes you need to handle process data outside of a file. Can you find a way to keep the output from this program and search for the flag? Connect to jupiter.challenges.picoctf.org 4427.
 
+When typing in the connect command it outputs a whole lot of text data. (nc  jupiter.challenges.picoctf.org 4427)
 
+I sent this data to a text file called plumbing.txt then grepped the file for the pico flag.
+
+nc jupiter.challenges.picoctf.org 4427 >> plumbing.txt
+cat plumbing.txt | grep picoCTF
+This outputs the picoCTF{}
