@@ -1,2 +1,30 @@
 Description
 I wrote you a song. Put it in the picoCTF{} flag format.
+
+The lyrics.txt file downloaded has a bunch of lyrics about a ctf song 
+after some googling turns out to be a language called rockstar 
+https://github.com/RockstarLang/rockstar
+
+After some more googling I found
+https://codewithrockstar.com/online?source=/rockstar/examples/99_beers.rock 
+
+throw the lyrics.txt file in that and you get: 
+114
+114
+114
+111
+99
+107
+110
+114
+110
+48
+49
+49
+51
+114
+
+Copy those numbers and decode. I used cyberchef.org (use the magic if you don't know what it is)
+The output of that is what goes inside the picoCTF{}
+
+
